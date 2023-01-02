@@ -1,0 +1,213 @@
+.card-container-pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40mm;
+}
+
+.card-container-pages .card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-container-pages img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.card-container-pages h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-container-pages a {
+    color: #6F4131;
+}
+
+.card-container-pages a:hover {
+    color: #4F362D;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.all-items h3 {
+    text-align: center;
+    margin-top: 15mm;
+    margin-bottom: 10mm;
+}
+
+.row .container-item {
+    margin-left: 30mm;
+}
+
+.container-item .card {
+    margin-bottom: 10mm;
+}
+
+.container-item a {
+    color: #6F4131;
+    font-size: small;
+}
+
+.container-item a:hover {
+    color: #4F362D;
+    text-decoration: none;
+    font-size: x-small;
+}
+
+.container-item .card {
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-item img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.container-item img:hover {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.single-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-item .item-name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.single-item .item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.single-item .item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-item .item-cost,
+.item-selling-price,
+.item-quantity {
+    margin-bottom: 0.5rem;
+}
+
+.single-item .item-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 1rem;
+}
+
+.single-item .edit-button,
+.delete-button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.single-item .edit-button {
+    background-color: lightblue;
+}
+
+.single-item .delete-button {
+    background-color: tomato;
+}
+
+body {
+    background-color: #F9F8FA;
+}
+
+.image-upload>input {
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.image-upload img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 150mm;
+    margin-top: 25mm;
+}
+
+.form-group>input {
+    border-radius: 20px;
+    border-color: #4F362D;
+}
+
+.form-group>label {
+    margin-right: 1rem;
+}
+
+.form-group>select {
+    border-radius: 20px;
+    border-color: #4F362D;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #6F4131;
+    border-radius: 20px;
+    border-color: #4F362D;
+    margin-left: 135mm;
+}
+
+#name-place {
+    margin-left: 110mm;
+}
+
+.row {
+    margin-left: 50mm;
+}
+
+.form-group>label {
+    color: #4F362D;
+    font-family: Arial, sans-serif;
+    margin-left: 35mm;
+}
+
+#name-place>label {
+    margin-left: 45mm;
+}
+
+input:hover {
+    border: 3px solid #CEAA9A;
+}
+
+select:hover {
+    border: 3px solid #CEAA9A;
+}
+
+.btn:hover {
+    background-color: #CEAA9A;
+    border: 3px solid #CEAA9A;
+}
